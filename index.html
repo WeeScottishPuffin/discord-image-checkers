@@ -1,5 +1,6 @@
 <script>
     const urlParams = new URLSearchParams(window.location.search);
-    console.log(urlParams.get("move"));
+    const moveParam = urlParams.get("move");
+    console.log(moveParam);
     window.location.replace("./image.png");
 </script>
