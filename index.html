@@ -1,6 +1,11 @@
-<script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const moveParam = urlParams.get("move");
-    console.log(moveParam);
-    window.location.replace("./image.png");
-</script>
+<html>
+    <head>
+        <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const moveParam = urlParams.get("move");
+            console.log(moveParam);
+            window.location.replace("./image.png");
+        </script>
+    </head>
+</html>
